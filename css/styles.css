@@ -1,0 +1,185 @@
+:root {
+    --primary-text-color: #434455;;
+    --title-text-color: #2E2F42;
+    --accent-color: #404BBF;
+    --primary-white-color: #ffffff;
+    --title-btn-color: #4D5AE5;
+    --white-bg-color: #F4F4FD;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+/* Site nav */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--title-text-color);
+
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contact-nav .link {
+    color: var(--primary-text-color);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+ }
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero .title{
+    color: var(--primary-white-color);
+    background-color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.hero .btn{
+    color: var(--primary-white-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    width: 169px;
+    height: 56px;
+    background: var(--title-btn-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+.hero .btn:hover,
+.hero .btn:focus {    
+    background-color: var(--accent-color);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Section 1 Description */
+
+.descr .title{
+    /* color: var(--title-text-color); */
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.descr .text{
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Section 2 What are we doing */
+
+/* Section 3 Our Team */
+
+.team .name{
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.team .profession{
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Footer */
+
+.footer{
+    background-color: var(--title-text-color);
+}
+
+.footer .logo{
+    color: var(--white-bg-color);
+
+    line-height: 21px;       
+}
+
+.footer .text{
+    color: #E7E9FC;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;        
+}
+
+/* Portfolio */
+
+/* Filter */
+
+.filter .btn{
+    color: var(--title-btn-color);
+    background: var(--white-bg-color);
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    
+    cursor: pointer;
+}
+.filter .btn:hover,
+.filter .btn:focus {    
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.filter .active{
+    color: var(--primary-white-color);
+    background: var(--title-btn-color);
+}
+
+.filter .active:hover,
+.filter .active:focus {
+
+    background-color: var(--accent-color);
+}
+
