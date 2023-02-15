@@ -112,6 +112,7 @@ body {
 /* Section 3 Our Team */
 
 .team .name{
+
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -121,6 +122,7 @@ body {
 }
 
 .team .profession{
+
     color: var(--primary-text-color);
 
     font-weight: 400;
@@ -130,16 +132,19 @@ body {
 /* Footer */
 
 .footer{
+
     background-color: var(--title-text-color);
 }
 
 .footer .logo{
+
     color: var(--white-bg-color);
 
     line-height: 21px;       
 }
 
 .footer .text{
+
     color: #E7E9FC;
 
     font-weight: 400;
@@ -152,6 +157,7 @@ body {
 /* Filter */
 
 .filter .btn{
+
     color: var(--title-btn-color);
     background: var(--white-bg-color);
     
@@ -173,6 +179,7 @@ body {
 }
 
 .filter .active{
+
     color: var(--primary-white-color);
     background: var(--title-btn-color);
 }
@@ -183,3 +190,20 @@ body {
     background-color: var(--accent-color);
 }
 
+/* Content */
+
+.content .title{
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.content .title{
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
