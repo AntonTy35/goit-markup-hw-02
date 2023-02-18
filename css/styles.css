@@ -46,7 +46,7 @@ body{
 
 .header-logo-black{
     color: var(--title-text-color);
-    order: 1;
+    /* order: 1; */
 }
                
 .header-list {}
@@ -92,6 +92,7 @@ body{
 }
 
 .hero-btn {
+    font-family: inherit;
     color: var(--primary-white-color);    
     font-weight: 500;
     font-size: 16px;
@@ -106,7 +107,7 @@ body{
 .hero-btn-active:hover,
 .hero-btn-active:focus {
     background-color: var(--accent-color);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 /* /Hero */
 
@@ -192,6 +193,7 @@ body{
 .filter {}
 
 .filter-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
